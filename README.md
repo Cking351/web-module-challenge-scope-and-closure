@@ -42,6 +42,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+-Closure gives you access from an inside function to the higher function, while keeping it function scoped.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +66,17 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+-Closure is used with the variable newRoll. It is declared within the function, therefore it cannot be called outside of it.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+-The name will stay the same, but the numbers will continue to be different.
+
 c. What is the lexical scope of `newRoll`? 
+
+Function scoped.
+
 
 ### Task 3 - Stretch Goals
 
